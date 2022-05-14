@@ -1,0 +1,52 @@
+*{
+  margin: 0;
+/*   box-sizing: border-box; */
+}
+
+body{
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+.container{
+  max-width: 1200px;
+  margin: 30px auto;
+  background: #f1f1f1;
+  padding: 20px;
+}
+
+h1{
+  text-align: center;
+  padding: 20px;
+  color: red;
+}
+button{
+  background: none;
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 20px;
+  cursor: pointer;
+  font-weight: 600;
+}
+button:hover{
+  background-color: red;
+  color: white;
+}
+
+.slider{
+  width: 400px;
+  height: 600px;
+  border: 1px solid black;
+  margin: 30px auto;
+  overflow: hidden;
+}
+
+.slider-line{
+  height: 600px;
+  width: 2400px;
+  display: flex;
+  position: relative;
+  left: 0;
+  transition: 1s;
+}
